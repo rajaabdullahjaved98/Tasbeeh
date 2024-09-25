@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="2mm"
+    tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="14mm"
+            android:layout_marginTop="14mm"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/app_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:fontFamily="casual"
+                    android:text="Tasbeeh App"/>
+
+                <TextView
+                    android:id="@+id/count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15mm"
+                    android:gravity="center"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    android:fontFamily="monospace"
+                    android:text="Count: 0"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:layout_marginTop="14mm">
+
+                <Button
+                    android:id="@+id/count_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="1mm"
+                    android:text="SubhanAllah"
+                    android:textSize="18sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/reset_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="1mm"
+                    android:text="Reset"
+                    android:textSize="18sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2mm">
+
+                <Button
+                    android:id="@+id/history_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="View History"
+                    android:textSize="18sp"
+                    android:fontFamily="casual"
+                    android:textStyle="bold"/>
+        </LinearLayout>
+
+</LinearLayout>
